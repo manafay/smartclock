@@ -1,0 +1,41 @@
+.minute-hand,
+.hour-hand {
+  position: absolute;
+  height: 90px;
+  width: 5px;
+  margin: auto;
+  top: -23%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #ffff;
+  transform-origin: bottom center;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.minute-hand {
+  position: absolute;
+  height: 120px;
+  width: 2px;
+  top: -32%;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+.second-hand {
+  position: absolute;
+  height: 120px;
+  width: 1px;
+  margin: auto;
+  top: -31%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 4px;
+  background: #ffff;
+  transform-origin: bottom center;
+  z-index: 1;
+}
+

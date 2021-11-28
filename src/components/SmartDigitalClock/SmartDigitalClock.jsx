@@ -1,6 +1,6 @@
 import React from "react";
-import Digit from "../Digit/Digit";
-import Separator from "../Separator/Separator";
+import Digit from "./Digit";
+import Separator from "./Separator";
 import './SmartDigitalClock.css';
 
 const digiMap = {

@@ -1,5 +1,5 @@
 import React from "react";
-import ClockHand from "../ClockHand/ClockHand";
+import ClockHand from "./ClockHand";
 import "./SmartAnalogClock.css";
 
 const SmartAnalogClock = (props) => {

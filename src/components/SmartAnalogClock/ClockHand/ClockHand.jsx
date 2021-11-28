@@ -1,4 +1,5 @@
 import React from "react";
+import "./ClockHand.css";
 
 const ClockHand = (props) => {
   const { className, degree } = props;

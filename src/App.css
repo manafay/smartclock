@@ -1,0 +1,11 @@
+.SmartClockApp {
+  text-align: center;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #ffff;
+}

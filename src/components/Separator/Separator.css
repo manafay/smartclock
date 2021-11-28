@@ -1,0 +1,14 @@
+.dots-separator:before,
+.dots-separator:after {
+  width: 5px;
+  height: 5px;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 14px;
+  background-color: #fff;
+}
+
+.dots-separator:after {
+  top: 34px;
+}
